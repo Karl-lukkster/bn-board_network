@@ -300,7 +300,7 @@ function Board(width,height,canvas){
 	}
 
 	this.draw = function(){
-		ctx.fillStyle="#000000";
+		ctx.fillStyle="#FFFFFF";
 		ctx.fillRect(0,0,canvas.width,canvas.height);
 		ctx.drawImage(document.getElementById(this.backgroundImg+(timer.totalTurns%7)),0,0,canvas.width,canvas.height/2);
 		ctx.drawImage(document.getElementById(this.backgroundImg+(timer.totalTurns%7)),0,canvas.height/2,canvas.width,canvas.height/2);
